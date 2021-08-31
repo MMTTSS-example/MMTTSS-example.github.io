@@ -29,7 +29,7 @@
     <div class="container" style="max-width:1150px;">
         <div class='row mt-5 mb-3'>
             <div class='col text-center'>
-                <p class="h2 font-weight-normal">Gated Recurrent Attention for Multi-Style Speech Synthesis</p>
+                <p class="h2 font-weight-normal">A Controllable Multi-lingual Multi-speaker Multi-style Text-to-Speech Synthesis with Multivariate Information Minimization</p>
             </div>
         </div>
     </div>
@@ -37,8 +37,8 @@
         <!-- authors -->
         <div class='row text-center h5 font-weight-normal pl-0 pr-0 mb-4' style="font-style:italic">
 		<a class="col-md-2 col-xs-4 text-dark" ><span>Sung Jun Cheon</span></a>
-                <a class="col-md-2 col-xs-4 text-dark" ><span>Joun Yeop Lee</span></a>
                 <a class="col-md-2 col-xs-4 text-dark" ><span>Byoung Jin Choi</span></a>
+                <a class="col-md-2 col-xs-4 text-dark" ><span>Minchan Kim</span></a>
                 <a class="col-md-2 col-xs-4 text-dark" ><span>Hyeonseung Lee</span></a>
                 <a class="col-md-2 col-xs-4 text-dark" ><span>Nam Soo Kim</span></a>
             </div>
@@ -72,10 +72,7 @@
 
                 <div class="container" style="max-width:850px; margin-top: 20px; margin-bottom: 40px">
                     <p style='line-height:1.3; font-size:large; text-align: justify'>
-                        We propose a novel attention model based on gated recurrence, which we call gated recurrent attention (GRA). 
-			GRA controls the contextual information by employing two gates. To show the GRA's alignment and style modeling performance, 
-			we upload some samples synthesized by Tacotron-GST with the location-sensitive attention (LSA) and GRA. 
-			The models were trained only on MAILABS-US corpus then synthesized the samples with style-references in the MAILABS-US and VCTK.
+                        We propose a multivariate information minimization method that disentangles three or more latent representations. We show that control factors can be disentangled by minimizing interactive dependency, which can be expressed as a sum of mutual information upper bound terms. Since the upper bound estimate converges from the early training stage, there is little performance degradation due to auxiliary loss. The proposed technique is applied to train a text-to-speech synthesizer with multi-lingual, multi-speaker, and multi-style corpora. Subjective listening tests validate that the proposed method can improve the synthesizer in terms of quality as well as controllability.
                     </p>
                 </div>
             </div>
