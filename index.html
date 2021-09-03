@@ -72,7 +72,12 @@
 
                 <div class="container" style="max-width:850px; margin-top: 20px; margin-bottom: 40px">
                     <p style='line-height:1.3; font-size:large; text-align: justify'>
-                        We propose a multivariate information minimization method that disentangles three or more latent representations. We show that control factors can be disentangled by minimizing interactive dependency, which can be expressed as a sum of mutual information upper bound terms. Since the upper bound estimate converges from the early training stage, there is little performance degradation due to auxiliary loss. The proposed technique is applied to train a text-to-speech synthesizer with multi-lingual, multi-speaker, and multi-style corpora. Subjective listening tests validate that the proposed method can improve the synthesizer in terms of quality as well as controllability.
+                        We propose a total correlation (TC) minimization method that disentangles three or more latent representations. 
+			We show that control factors can be disentangled by minimizing interactive dependency, which can be expressed as a sum of mutual information upper bound terms. 
+			Since the upper bound estimate converges from the early training stage, there is little performance degradation due to auxiliary loss. 
+			The proposed technique is applied to train a multi-lingual, multi-speaker, and multi-style text-to-speech synthesizer (Multi-Multi TTS Synthesizer; MMTTSS). 
+			The MMTTSS synthesizes speech corresponding to a text input conditioned on a speaker label and reference style.
+			The speech samples synthesized by the MMTTSS with three baselines (without disentanglement, gradient reversal, mutual information minimization) and the proposed TC minimization are given below.
                     </p>
                 </div>
             </div>
@@ -140,7 +145,7 @@
                 </div>
 		<div style='flex: 1;'>
 		    <div class='row' style='width: 380px; height:50px; '>
-                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GRL</p>
+                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GR</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:8px; width: 270px; height: 50px; width: 270px; height: 50px'>
@@ -225,7 +230,7 @@
                 </div>
 		<div style='flex: 1;'>
 		    <div class='row' style='width: 380px; height:50px; '>
-                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GRL</p>
+                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GR</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:8px; width: 270px; height: 50px; width: 270px; height: 50px'>
@@ -310,7 +315,7 @@
                 </div>
 		<div style='flex: 1;'>
 		    <div class='row' style='width: 380px; height:50px; '>
-                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GRL</p>
+                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GR</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:8px; width: 270px; height: 50px; width: 270px; height: 50px'>
@@ -403,7 +408,7 @@
                 </div>
 		<div style='flex: 1;'>
 		    <div class='row' style='width: 380px; height:50px; '>
-                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GRL</p>
+                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GR</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:8px; width: 270px; height: 50px; width: 270px; height: 50px'>
@@ -489,7 +494,7 @@
                 </div>
 		<div style='flex: 1;'>
 		    <div class='row' style='width: 380px; height:50px; '>
-                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GRL</p>
+                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GR</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:8px; width: 270px; height: 50px; width: 270px; height: 50px'>
@@ -574,7 +579,7 @@
                 </div>
 		<div style='flex: 1;'>
 		    <div class='row' style='width: 380px; height:50px; '>
-                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GRL</p>
+                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GR</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:8px; width: 270px; height: 50px; width: 270px; height: 50px'>
@@ -666,7 +671,7 @@
                 </div>
 		<div style='flex: 1;'>
 		    <div class='row' style='width: 380px; height:50px; '>
-                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GRL</p>
+                        <p style='height: 60px; width: 100px; padding: 15px 0; text-align: right;'>GR</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:8px; width: 270px; height: 50px; width: 270px; height: 50px'>
